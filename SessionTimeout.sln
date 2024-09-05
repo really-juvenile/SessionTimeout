@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionTimeout", "SessionTimeout\SessionTimeout.csproj", "{419A797F-FAD0-49D1-9F25-8DB1A67F2152}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionsDemo", "SessionsDemo\SessionsDemo.csproj", "{1E27DB94-2369-4B5E-A294-122A2B9A1DC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{419A797F-FAD0-49D1-9F25-8DB1A67F2152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419A797F-FAD0-49D1-9F25-8DB1A67F2152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419A797F-FAD0-49D1-9F25-8DB1A67F2152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E27DB94-2369-4B5E-A294-122A2B9A1DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E27DB94-2369-4B5E-A294-122A2B9A1DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E27DB94-2369-4B5E-A294-122A2B9A1DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E27DB94-2369-4B5E-A294-122A2B9A1DC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
