@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "CheckSessionTimeout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CheckSessionTimeout</title>
+</head>
+<body>
+    <div>
+        <h2>Session Status</h2>
+        <p>The session is still Active. Last Accessed time is </p>
+        <p><a href="@Url.Action("GetSession", "Session")">Check Session Timeout</a></p>    </div>
+</body>
+</html>

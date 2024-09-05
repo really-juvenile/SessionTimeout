@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetSession</title>
+</head>
+<body>
+    <div>
+        <h2>Session Data</h2>
+        <p>@ViewBag.Message</p>
+        <p> <a href="@Url.Action("CheckSessionTimeout","Session")">Check Session Timeout</a></p>
+    </div>
+</body>
+</html>
